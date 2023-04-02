@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #163055;
+}
+#container {
+  max-width: 700px;
+  padding: 2rem 2rem;
+  margin: 2rem auto;
+  background-color: #f0eeef;
+  border-radius: 30px;
+  overflow: auto;
+}
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+  font-family: arial, sans-serif;
+}
+
+.success {
+  background: green;
+}
+
+.error {
+  background: red;
+}
+
+#container h1 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  color: #000000;
+}
+#form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: 1px solid rgb(20, 116, 70);
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#btn {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: none !important;
+  color: #fff;
+  background: #5ac6f8;
+  font-size: 1.3rem !important;
+  font-weight: 800;
+  font-family: "Josefin Sans", sans-serif;
+
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.5rem !important;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.loader-del {
+  width: 70px;
+  height: 70px;
+}
+table {
+  width: 100%;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-body {
+  font-weight: 800;
+  font-family: "Josefin Sans", sans-serif;
+  color: #000000;
+  font-size: 1.5rem;
+}
+td,
+th {
+  text-align: left;
+  padding: 0.8rem !important;
+}
+tr {
+  border-bottom: 1px solid rgb(46, 46, 152);
+}
+.tr {
+  background: #afc2dd;
+  color: #163055;
+  border: none !important;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
